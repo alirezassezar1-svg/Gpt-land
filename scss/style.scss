@@ -1,0 +1,16 @@
+// Source stylesheet. Compile with: sass scss/style.scss style.css
+// The shipped style.css is already compiled for zero-build GitHub Pages deployment.
+@use "sass:color";
+:root {
+  --bg: #050608;
+  --panel: #0a0d11;
+  --text: #e9f3f8;
+  --muted: #8999a4;
+  --ice: #a8dfff;
+  --cyan: #55c8ff;
+  --line: rgba(168,223,255,.15);
+  --mono: "DM Mono", monospace;
+  --sans: "Manrope", sans-serif;
+}
+// The production stylesheet is intentionally kept as plain CSS so GitHub Pages
+// can serve the site directly without a Node/Sass build step.
